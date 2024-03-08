@@ -42,6 +42,5 @@ function myMap() {
 }
 
 // contact us box
-function btn_1() {
-    const btn_1 = document.querySelector
+
 }
