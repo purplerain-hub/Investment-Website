@@ -43,13 +43,22 @@ function myMap() {
 
 // contact us box
 
+
 let userName;
 let phoneNumber;
-let email;
+let userEmail;
 let message;
+let MailDraft
 
-userName = Document.getElementbyID("username").innerHTML;
-phoneNumber = Document.getElementbyID("number").innerHTML;
-email = Document.getElementbyID("email").innerHTML;
-message = Document.getElementbyID("message").innerHTML;
 
+Document.getElementById("Submit").onclick = function() {
+
+  userName = Document.getElementbyID("username").value;
+  phoneNumber = Document.getElementbyID("number").value;
+  email = Document.getElementbyID("email").value;
+  message = Document.getElementbyID("message").value;
+ 
+  MailDraft = "Limitless Capital, Mail from client!", userName, phoneNumber,userEmail,"The message from client: "+message;
+
+  
+}
