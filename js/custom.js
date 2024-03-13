@@ -59,6 +59,6 @@ Document.getElementById("Submit").onclick = function() {
   message = Document.getElementbyID("message").value;
  
   MailDraft = "Limitless Capital, Mail from client!", userName, phoneNumber,userEmail,"The message from client: "+message;
-
+  console.log("MailDraft")
   
 }
