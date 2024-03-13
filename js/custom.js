@@ -87,4 +87,39 @@ Document.getElementById("Submit").onclick = function() {
       });
   });
 
+/*
+
+<<<<<<USE THIS ONE IF YOU WANNA USE YOUR GMAIL>>>>>
+<<<<<<USE THIS ONE IF YOU WANNA USE YOUR GMAIL>>>>>
+   <<<<<<Just take it out the comment section>>>>>
+const nodemailer = require('nodemailer');
+
+// Create a transporter object using Gmail SMTP
+const transporter = nodemailer.createTransport({
+  service: 'gmail',
+  auth: {
+    user: 'your_email@gmail.com', // Your Gmail address
+    pass: 'your_password' // Your Gmail password or App password
+  }
+});
+
+// Set up email data
+const mailOptions = {
+  from: 'your_email@gmail.com',
+  to: 'recipient_email@example.com', // recipient's email address
+  subject: 'Subject of your email',
+  text: 'Body of your email'
+};
+
+// Send email
+transporter.sendMail(mailOptions, function(error, info) {
+  if (error) {
+    console.error('Error sending email:', error);
+  } else {
+    console.log('Email sent:', info.response);
+  }
+});
+
+*/
+
 
