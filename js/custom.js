@@ -43,4 +43,13 @@ function myMap() {
 
 // contact us box
 
-}
+let userName;
+let phoneNumber;
+let email;
+let message;
+
+userName = Document.getElementbyID("username").innerHTML;
+phoneNumber = Document.getElementbyID("number").innerHTML;
+email = Document.getElementbyID("email").innerHTML;
+message = Document.getElementbyID("message").innerHTML;
+
